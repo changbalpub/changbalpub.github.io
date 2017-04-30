@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">참여 작가 보기</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plan -->
+    <section id="plan" class="">
+        <div id="plan-wrapper" class="inner">
+            <header class="major">
+                <h2>계획표</h2>
+            </header>
+            
+            <h4>계획표</h4>
+        </div>
+
+    </section>
+    <!--timeline test-->
+<section class="cd-horizontal-timeline">
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol>
+					<li><a href="#0" data-date="4/29/2017" class="selected">4/29</a></li>
+					<li><a href="#0" data-date="5/1/2017">5/1</a></li>
+                    <li><a href="#0" data-date="5/2/2017">5/2</a></li>
+                    <li><a href="#0" data-date="5/3/2017">5/3</a></li>
+                    <li><a href="#0" data-date="5/4/2017">5/4</a></li>
+				</ol>
+
+				<span class="filling-line" aria-hidden="true"></span>
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
+			
+		<!--<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul>  .cd-timeline-navigation -->
+	</div> <!-- .timeline -->
+
+	<div class="events-content">
+		<ol>
+			<li class="selected" data-date="4/29/2017">
+				<h3>첫번째</h3>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="5/1/2017">
+				<h3>회의</h3>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+            <li data-date="5/2/2017">
+				<h3>회의</h3>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+        <li data-date="5/3/2017">
+				<h3>회의</h3>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+     <li data-date="5/4/2017">
+				<h3>회의</h3>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+
+		</ol>
+	</div> <!-- .events-content -->
+</section>
+
+
+    <!--timeline test end-->
+
+
+
+    <!-- Main -->
+    <div id="main">
+
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>작가가 될래요?</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="https://goo.gl/DNU3fE" target="_blank" class="button next">작가 지원</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

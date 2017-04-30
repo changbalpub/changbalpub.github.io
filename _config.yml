@@ -1,0 +1,36 @@
+# Site settings
+title: Changbal
+subtitle: Publication
+email: changbalpub@gmail.com
+description: 한국에서 미국 테크 업계로 취업하자!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: HH CITY22
+state: B State
+zip_code: 55555
+country: GHSNF Country2222
+phone: (222) 555-5555
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 8
+
+# Social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
