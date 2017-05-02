@@ -4,6 +4,7 @@
                 <h2>작가들</h2>
             </header>
         </div>
+
 	{% for writer in site.writers limit:site.tiles-count %}
 	{% if site.tiles-source == 'posts' %}
         <article>
@@ -15,10 +16,12 @@
                         <p>{{ writer.description }}</p>
                 </header>
         </article>
+        
 	{% endif %}
 	{% endfor %}
 	{% for page in site.pages limit:site.tiles-count %}
 	{% if site.tiles-source == 'pages' %}
+        
         <article>
                 <span class="image">
                         <img src="{{ page.image }}" alt="" />
@@ -28,6 +31,8 @@
                         <p>{{ page.description }}</p>
                 </header>
         </article>
+        
 	{% endif %}
 	{% endfor %}
+       
 </section>
