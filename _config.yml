@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  writers:
+    title: Writers
+    output: true
 subtitle: Publication
 email: changbalpub@gmail.com
 description: 한국에서 미국 테크 업계로 취업하자!
