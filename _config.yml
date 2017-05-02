@@ -14,8 +14,8 @@ collections:
 subtitle: Publication
 email: changbalpub@gmail.com
 description: 한국에서 미국 테크 업계로 취업하자!
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 author: 
 street_address: 1234 Somewhere Road
 city: HH CITY22
