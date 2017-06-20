@@ -11,7 +11,7 @@ collections:
   writers:
     title: Writers
     output: true
-subtitle: Publication
+subtitle: Publishing
 email: changbalpub@gmail.com
 description: 미국 Tech회사에 성공적으로 정착한 한국사람들의 이야기 모음 현재 작가 모집 중
 baseurl: 
