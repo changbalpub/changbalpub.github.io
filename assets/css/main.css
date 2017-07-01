@@ -3002,6 +3002,12 @@ button:disabled,
     z-index: 10000;
 }
 
+#header .logo-image {
+    float: left;
+    display: inline-block;
+    margin-right: -2em;
+}
+
 #header .logo {
     border: 0;
     display: inline-block;
